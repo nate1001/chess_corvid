@@ -1,0 +1,11 @@
+Chess Corvid
+============
+
+Chess Corvid is a collection of open source projects that work together to
+to record and analyze chess games.
+
+
+It includes:
+	A gui (pyQT) to play and examine games.
+	A database (Postgresql) that records and indexes games.
+
