@@ -10,6 +10,8 @@ $(SUBDIRS):
 
 build: grackle
 
+data: crow
+
 
 .PHONY: $(SUBDIRS) build
 
