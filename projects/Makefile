@@ -1,6 +1,12 @@
 
-DIRS = pgn-extract-16-7 chesslib chess_grackle chess_crow chess_jay 
+SUBDIRS = pgn-extract chesslib/src grackle crow jay 
 
-all: 
-	for dir in $(DIRS); do $(MAKE) -C $$dir; done
-	
+
+all: $(SUBDIRS)
+
+$(SUBDIRS):
+	$(MAKE) -C $@ $(MAKEOPTS) $(MAKECMDGOALS)
+
+
+.PHONY: $(SUBDIRS)
+
