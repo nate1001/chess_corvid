@@ -1,3 +1,15 @@
 [submodule "projects/jay"]
 	path = projects/jay
 	url = https://github.com/nate1001/chess_jay.git
+[submodule "projects/grackle"]
+	path = projects/grackle
+	url = https://github.com/nate1001/chess_grackle.git
+[submodule "projects/crow"]
+	path = projects/crow
+	url = https://github.com/nate1001/chess_crow.git
+[submodule "projects/pgn-extract"]
+	path = projects/pgn-extract
+	url = https://github.com/nate1001/pgn-extract-16-7.git
+[submodule "projects/chesslib"]
+	path = projects/chesslib
+	url = https://github.com/nate1001/chesslib.git
