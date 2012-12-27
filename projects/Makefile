@@ -8,5 +8,8 @@ $(SUBDIRS):
 	$(MAKE) -C $@ $(MAKEOPTS) $(MAKECMDGOALS)
 
 
-.PHONY: $(SUBDIRS)
+build: grackle
+
+
+.PHONY: $(SUBDIRS) build
 
