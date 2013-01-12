@@ -13,3 +13,6 @@
 [submodule "projects/chesslib"]
 	path = projects/chesslib
 	url = https://github.com/nate1001/chesslib.git
+[submodule "projects/python-chess"]
+	path = projects/python-chess
+	url = https://github.com/nate1001/python-chess.git
